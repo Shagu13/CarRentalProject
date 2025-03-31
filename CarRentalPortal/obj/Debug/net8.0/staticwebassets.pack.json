@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\001c5acf-f224-4c30-9e0a-c90667fe0a7e_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\uploads\\001c5acf-f224-4c30-9e0a-c90667fe0a7e_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\0154c74d-667b-41c7-9f7c-316003b2bf7a_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\uploads\\0154c74d-667b-41c7-9f7c-316003b2bf7a_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\0b85a3af-4e21-4f96-b1f9-f9471543d84b_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\uploads\\0b85a3af-4e21-4f96-b1f9-f9471543d84b_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\195f73c7-d69c-4faa-b13a-23f80cddba5e_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\uploads\\195f73c7-d69c-4faa-b13a-23f80cddba5e_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\3d9cc927-914b-45af-a99d-1eb6a8cbf3fb_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\uploads\\3d9cc927-914b-45af-a99d-1eb6a8cbf3fb_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\50de5c5a-52d7-416c-aaa3-bbbbd62a8fe7_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\uploads\\50de5c5a-52d7-416c-aaa3-bbbbd62a8fe7_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\61a87593-66ac-4964-a85e-9946a6ec4b43_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\uploads\\61a87593-66ac-4964-a85e-9946a6ec4b43_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\687d9403-03a9-429a-a363-80e0b409690a_subaru.png",
+      "PackagePath": "staticwebassets\\uploads\\687d9403-03a9-429a-a363-80e0b409690a_subaru.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\736d748c-81d3-45d4-8470-d5cea0955ec4_tesla.png",
+      "PackagePath": "staticwebassets\\uploads\\736d748c-81d3-45d4-8470-d5cea0955ec4_tesla.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\9ce18edf-ca96-4b15-8348-8868d13c9968_tesla.png",
+      "PackagePath": "staticwebassets\\uploads\\9ce18edf-ca96-4b15-8348-8868d13c9968_tesla.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\a065dda4-0b75-4d15-abab-4aa9d44ad4a6_subaru.png",
+      "PackagePath": "staticwebassets\\uploads\\a065dda4-0b75-4d15-abab-4aa9d44ad4a6_subaru.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\a2378a48-8787-41de-ac19-27103a1429ea_Screenshot (1).png",
+      "PackagePath": "staticwebassets\\uploads\\a2378a48-8787-41de-ac19-27103a1429ea_Screenshot (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\b66b1a21-4262-46f2-be83-6ff3d0bbecbb_subaru.png",
+      "PackagePath": "staticwebassets\\uploads\\b66b1a21-4262-46f2-be83-6ff3d0bbecbb_subaru.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\CarRentalPortal\\CarRentalPortal\\wwwroot\\uploads\\c88b3520-9b2a-48fd-a15b-51847b0bf508_tesla.png",
+      "PackagePath": "staticwebassets\\uploads\\c88b3520-9b2a-48fd-a15b-51847b0bf508_tesla.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarRentalPortal.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarRentalPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CarRentalPortal.props",
+      "PackagePath": "build\\CarRentalPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CarRentalPortal.props",
+      "PackagePath": "buildMultiTargeting\\CarRentalPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CarRentalPortal.props",
+      "PackagePath": "buildTransitive\\CarRentalPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

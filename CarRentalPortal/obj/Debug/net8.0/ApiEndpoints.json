@@ -1,0 +1,466 @@
+[
+  {
+    "ContainingType": "CarRentalPortal.Controllers.AdminController",
+    "Method": "ChangeUserPassword",
+    "RelativePath": "api/Admin/change-user-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.AdminController",
+    "Method": "UpdateUserStatus",
+    "RelativePath": "api/Admin/update-user-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StaySignedIn",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CarRentalPortal.Helpers.ServiceResponse\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CarRentalPortal.Helpers.ServiceResponse\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "AddCar",
+    "RelativePath": "api/Car/add-car",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CarBrand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarModel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearOfManufacture",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DailyRentalPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPhoneNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TransmissionType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EngineType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FuelTankCapacity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RangeInKm",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "GetAvailableCarsForCurrentMonth",
+    "RelativePath": "api/Car/available-this-month",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/Car/delete-car/{carId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "GetMostPopularCars",
+    "RelativePath": "api/Car/most-popular",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "top",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "GetRandomCars",
+    "RelativePath": "api/Car/random-car",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "RentCar",
+    "RelativePath": "api/Car/rent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CarId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "SearchByCity",
+    "RelativePath": "api/Car/search-by-city",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.CarController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Car/update-car",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarBrand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarModel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearOfManufacture",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DailyRentalPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarCapacity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "City",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TransmissionType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EngineType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FuelTankCapacity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RangeInKm",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "DeleteOwnAccount",
+    "RelativePath": "api/User/delete-account",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "GetMyCars",
+    "RelativePath": "api/User/my-cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "GetRentedCars",
+    "RelativePath": "api/User/rented-cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "UpdateEmail",
+    "RelativePath": "api/User/update-email",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewEmail",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/User/update-password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OldPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmNewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRentalPortal.Controllers.UserController",
+    "Method": "UpdatePhone",
+    "RelativePath": "api/User/update-phone",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewPhoneNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

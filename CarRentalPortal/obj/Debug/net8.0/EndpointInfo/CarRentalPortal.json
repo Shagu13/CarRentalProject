@@ -1,0 +1,815 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Car Rental Portal",
+    "version": "V1"
+  },
+  "paths": {
+    "/api/Admin/update-user-status": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Status": {
+                    "enum": [
+                      "Active",
+                      "Inactive",
+                      "Deleted"
+                    ],
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/change-user-password": {
+      "put": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "UserId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "NewPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "UserId": {
+                  "style": "form"
+                },
+                "NewPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/Register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "PhoneNumber": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "PhoneNumber": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ServiceResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ServiceResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Int32ServiceResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Auth/Login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "PhoneNumber": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Password": {
+                    "type": "string"
+                  },
+                  "StaySignedIn": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "encoding": {
+                "PhoneNumber": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                },
+                "StaySignedIn": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringServiceResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringServiceResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StringServiceResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Car/add-car": {
+      "post": {
+        "tags": [
+          "Car"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CarBrand": {
+                    "type": "string"
+                  },
+                  "CarModel": {
+                    "type": "string"
+                  },
+                  "YearOfManufacture": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "DailyRentalPrice": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "CarCapacity": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UserPhoneNumber": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "TransmissionType": {
+                    "enum": [
+                      "Automatic",
+                      "Manual",
+                      "Tiptronic"
+                    ],
+                    "type": "string"
+                  },
+                  "EngineType": {
+                    "enum": [
+                      "Petrol",
+                      "Diesel",
+                      "Electric",
+                      "Hybrid",
+                      "Gas"
+                    ],
+                    "type": "string"
+                  },
+                  "FuelTankCapacity": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RangeInKm": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "CarBrand": {
+                  "style": "form"
+                },
+                "CarModel": {
+                  "style": "form"
+                },
+                "YearOfManufacture": {
+                  "style": "form"
+                },
+                "DailyRentalPrice": {
+                  "style": "form"
+                },
+                "CarCapacity": {
+                  "style": "form"
+                },
+                "UserPhoneNumber": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "TransmissionType": {
+                  "style": "form"
+                },
+                "EngineType": {
+                  "style": "form"
+                },
+                "FuelTankCapacity": {
+                  "style": "form"
+                },
+                "RangeInKm": {
+                  "style": "form"
+                },
+                "Images": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/rent": {
+      "post": {
+        "tags": [
+          "Car"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CarId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "StartDate": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "EndDate": {
+                    "type": "string",
+                    "format": "date"
+                  }
+                }
+              },
+              "encoding": {
+                "CarId": {
+                  "style": "form"
+                },
+                "StartDate": {
+                  "style": "form"
+                },
+                "EndDate": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/available-this-month": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/search-by-city": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "city",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/most-popular": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "top",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/random-car": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "count",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/update-car": {
+      "put": {
+        "tags": [
+          "Car"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "CarBrand": {
+                    "type": "string"
+                  },
+                  "CarModel": {
+                    "type": "string"
+                  },
+                  "YearOfManufacture": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "DailyRentalPrice": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "CarCapacity": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "City": {
+                    "type": "string"
+                  },
+                  "TransmissionType": {
+                    "enum": [
+                      "Automatic",
+                      "Manual",
+                      "Tiptronic"
+                    ],
+                    "type": "string"
+                  },
+                  "EngineType": {
+                    "enum": [
+                      "Petrol",
+                      "Diesel",
+                      "Electric",
+                      "Hybrid",
+                      "Gas"
+                    ],
+                    "type": "string"
+                  },
+                  "FuelTankCapacity": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "RangeInKm": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Images": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "CarBrand": {
+                  "style": "form"
+                },
+                "CarModel": {
+                  "style": "form"
+                },
+                "YearOfManufacture": {
+                  "style": "form"
+                },
+                "DailyRentalPrice": {
+                  "style": "form"
+                },
+                "CarCapacity": {
+                  "style": "form"
+                },
+                "City": {
+                  "style": "form"
+                },
+                "TransmissionType": {
+                  "style": "form"
+                },
+                "EngineType": {
+                  "style": "form"
+                },
+                "FuelTankCapacity": {
+                  "style": "form"
+                },
+                "RangeInKm": {
+                  "style": "form"
+                },
+                "Images": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/delete-car/{carId}": {
+      "delete": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "carId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/profile": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/my-cars": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/rented-cars": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/update-password": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "OldPassword": {
+                    "type": "string"
+                  },
+                  "NewPassword": {
+                    "type": "string"
+                  },
+                  "ConfirmNewPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "OldPassword": {
+                  "style": "form"
+                },
+                "NewPassword": {
+                  "style": "form"
+                },
+                "ConfirmNewPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/update-email": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "NewEmail": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "NewEmail": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/update-phone": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "NewPhoneNumber": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "NewPhoneNumber": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/delete-account": {
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Int32ServiceResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StringServiceResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "nullable": true
+          },
+          "success": {
+            "type": "boolean"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter your Bearer token here",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

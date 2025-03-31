@@ -1,0 +1,256 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\001c5acf-f224-4c30-9e0a-c90667fe0a7e_Screenshot (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/001c5acf-f224-4c30-9e0a-c90667fe0a7e_Screenshot (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>igbw62hohz</Fingerprint>
+      <Integrity>AiA5Kwh3Ge4B/r3vasrBxVxVfYncoKOU5S4TsBk9Ec0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\001c5acf-f224-4c30-9e0a-c90667fe0a7e_Screenshot (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0154c74d-667b-41c7-9f7c-316003b2bf7a_Screenshot (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/0154c74d-667b-41c7-9f7c-316003b2bf7a_Screenshot (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ihfsfov8xz</Fingerprint>
+      <Integrity>Zvzlo9HIu+duEW2b6QHFRJIBGTd+NigCVdp45Ly9AbU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0154c74d-667b-41c7-9f7c-316003b2bf7a_Screenshot (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0b85a3af-4e21-4f96-b1f9-f9471543d84b_Screenshot (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/0b85a3af-4e21-4f96-b1f9-f9471543d84b_Screenshot (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>igbw62hohz</Fingerprint>
+      <Integrity>AiA5Kwh3Ge4B/r3vasrBxVxVfYncoKOU5S4TsBk9Ec0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0b85a3af-4e21-4f96-b1f9-f9471543d84b_Screenshot (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\195f73c7-d69c-4faa-b13a-23f80cddba5e_Screenshot (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/195f73c7-d69c-4faa-b13a-23f80cddba5e_Screenshot (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ihfsfov8xz</Fingerprint>
+      <Integrity>Zvzlo9HIu+duEW2b6QHFRJIBGTd+NigCVdp45Ly9AbU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\195f73c7-d69c-4faa-b13a-23f80cddba5e_Screenshot (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d9cc927-914b-45af-a99d-1eb6a8cbf3fb_Screenshot (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/3d9cc927-914b-45af-a99d-1eb6a8cbf3fb_Screenshot (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>igbw62hohz</Fingerprint>
+      <Integrity>AiA5Kwh3Ge4B/r3vasrBxVxVfYncoKOU5S4TsBk9Ec0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d9cc927-914b-45af-a99d-1eb6a8cbf3fb_Screenshot (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50de5c5a-52d7-416c-aaa3-bbbbd62a8fe7_Screenshot (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/50de5c5a-52d7-416c-aaa3-bbbbd62a8fe7_Screenshot (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ihfsfov8xz</Fingerprint>
+      <Integrity>Zvzlo9HIu+duEW2b6QHFRJIBGTd+NigCVdp45Ly9AbU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50de5c5a-52d7-416c-aaa3-bbbbd62a8fe7_Screenshot (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\61a87593-66ac-4964-a85e-9946a6ec4b43_Screenshot (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/61a87593-66ac-4964-a85e-9946a6ec4b43_Screenshot (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ihfsfov8xz</Fingerprint>
+      <Integrity>Zvzlo9HIu+duEW2b6QHFRJIBGTd+NigCVdp45Ly9AbU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\61a87593-66ac-4964-a85e-9946a6ec4b43_Screenshot (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\687d9403-03a9-429a-a363-80e0b409690a_subaru.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/687d9403-03a9-429a-a363-80e0b409690a_subaru.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>81l5mr5phn</Fingerprint>
+      <Integrity>vKvDh/+VYS1vmvO8hGPh89SJBt6Fcyyc9ecutbX9NhQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\687d9403-03a9-429a-a363-80e0b409690a_subaru.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\736d748c-81d3-45d4-8470-d5cea0955ec4_tesla.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/736d748c-81d3-45d4-8470-d5cea0955ec4_tesla.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pe7kmwwtpm</Fingerprint>
+      <Integrity>fwdZbFuwGouwo7U6gjQsp92ImtnxR6nZbqAa8thVcAE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\736d748c-81d3-45d4-8470-d5cea0955ec4_tesla.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ce18edf-ca96-4b15-8348-8868d13c9968_tesla.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/9ce18edf-ca96-4b15-8348-8868d13c9968_tesla.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pe7kmwwtpm</Fingerprint>
+      <Integrity>fwdZbFuwGouwo7U6gjQsp92ImtnxR6nZbqAa8thVcAE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ce18edf-ca96-4b15-8348-8868d13c9968_tesla.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a065dda4-0b75-4d15-abab-4aa9d44ad4a6_subaru.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/a065dda4-0b75-4d15-abab-4aa9d44ad4a6_subaru.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>81l5mr5phn</Fingerprint>
+      <Integrity>vKvDh/+VYS1vmvO8hGPh89SJBt6Fcyyc9ecutbX9NhQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a065dda4-0b75-4d15-abab-4aa9d44ad4a6_subaru.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2378a48-8787-41de-ac19-27103a1429ea_Screenshot (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/a2378a48-8787-41de-ac19-27103a1429ea_Screenshot (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ihfsfov8xz</Fingerprint>
+      <Integrity>Zvzlo9HIu+duEW2b6QHFRJIBGTd+NigCVdp45Ly9AbU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2378a48-8787-41de-ac19-27103a1429ea_Screenshot (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b66b1a21-4262-46f2-be83-6ff3d0bbecbb_subaru.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/b66b1a21-4262-46f2-be83-6ff3d0bbecbb_subaru.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>81l5mr5phn</Fingerprint>
+      <Integrity>vKvDh/+VYS1vmvO8hGPh89SJBt6Fcyyc9ecutbX9NhQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b66b1a21-4262-46f2-be83-6ff3d0bbecbb_subaru.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c88b3520-9b2a-48fd-a15b-51847b0bf508_tesla.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CarRentalPortal</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CarRentalPortal</BasePath>
+      <RelativePath>uploads/c88b3520-9b2a-48fd-a15b-51847b0bf508_tesla.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pe7kmwwtpm</Fingerprint>
+      <Integrity>fwdZbFuwGouwo7U6gjQsp92ImtnxR6nZbqAa8thVcAE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c88b3520-9b2a-48fd-a15b-51847b0bf508_tesla.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>
